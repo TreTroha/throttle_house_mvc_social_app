@@ -19,12 +19,17 @@
 
 `npm start`
 
+---
+
+<p align="center">
+  <img src="https://github.com/TreTroha/throttle_house_mvc_social_app/blob/main/throttle_house.gif" alt="animated walkthrough" />
+ </p>
 
 ## Throttle House
 This is a social media web application built from scratch ideally targeted towards car enthusiasts or gear heads in general!
 
 ## How It's Made:
-Tech used: EJS, Bootstrap, JavaScript, Node.JS, MongoDB, Cloudinary (for image storage)
+**Tech used:** EJS, Bootstrap, JavaScript, Node.JS, MongoDB, Cloudinary (for image storage)
 
 This application was built using MVC design pattern and primary focuses on the structure in the backend. We utilize MongoDB for keeping track of users, comments, and posts; then layer on cloudinary to manage our image uploading. Regarding users we utilize passport and local Auth (email & passwords) to log users in and out of the account. I plan to add google auth later down the road as well for ease of access. This application functions entirely without client side JS which marginally speeds up responsiveness + cuts out event listeners all together. This also means we are utilizing method override to change our forms from post to get, put, and delete actions. On this application as well we are utilizing mongo-store and express session to manage our returning users and alleviate that repetitive logging in and out by utilizing a cookie on the end users device. This project was a blast to make and I want to build onto it on the future
 
